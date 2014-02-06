@@ -5,19 +5,24 @@ h3{
 	font-family: Arial, Verdana, sans-serif;
 }
 
-body{
-	background:#809dd6;
-	color:#FFFFFE;
-	font-weight:300;
-	font-size:2rem;
-	font-family: 'Source sans pro', sans-serif;
+h1{
+	font-size: 3rem;
 	text-align: center;
 }
 
+body{
+	background:#2F3238;
+	color:#FFFFFE;
+	font-weight:300;
+	font-family: Arial, Verdana, sans-serif;
+}
+
 div.container{
-	width: 200px; 
-	height: 200px; 
-	position: relative;
+
+	width: 250px; 
+	height: 450px; 
+	position: absolute;
+	margin-left: 50px;
 }
 
 div.container img{
@@ -35,11 +40,13 @@ div.container div{
 div.container div ul{
 	margin:0;
 	padding:0;
-	position: absolute;
+	display: block;
 }
 
 div.container div ul li{
 	list-style-type: none;
+	position: relative;
+	display: block;
 }
 
 div.container div ul li a{
@@ -56,15 +63,14 @@ div.container div ul li a:hover{
 }
 
 div.container div ul li:hover{
-	transition: color 0.2s ease-in-out;
-	-moz-transition: color 0.2s ease-in-out;
-	-webkit-transition: color 0.2s ease-in-out;
+	transition: color 0.5s ease-in-out;
+	-moz-transition: color 0.5s ease-in-out;
+	-webkit-transition: color 0.5s ease-in-out;
 
 }
 
 div.container img:hover + div{
 	display: block;
-
 }
 
 div.container img:hover{
