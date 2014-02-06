@@ -1,0 +1,84 @@
+
+h1,
+h2,
+h3{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+body{
+	background:#809dd6;
+	color:#FFFFFE;
+	font-weight:300;
+	font-size:2rem;
+	font-family: 'Source sans pro', sans-serif;
+	text-align: center;
+}
+
+div.container{
+	width: 200px; 
+	height: 200px; 
+	position: relative;
+}
+
+div.container img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+div.container div{
+	width:100%;
+	position: absolute;
+	display:none;
+	background-color:#FFFFFF;
+}
+div.container div ul{
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+div.container div ul li{
+	list-style-type: none;
+}
+
+div.container div ul li a{
+	padding: 10px 30px;
+	display:block;
+	font-size: 1rem;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+}
+
+div.container div ul li a:hover{
+	background-color: #d15d5d;
+	color:#FFF;
+}
+
+div.container div ul li:hover{
+	transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+
+}
+
+div.container img:hover + div{
+	display: block;
+
+}
+
+div.container img:hover{
+	opacity: 0.5;
+}
+
+div.container div:hover{
+	display: block;
+
+}
+
+div.container a,
+div.container a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
