@@ -1,0 +1,138 @@
+
+html, body{
+	height: 100%;
+	margin: 0;
+	overflow: auto;
+	position: relative;
+}
+
+h1,
+h2,
+h3{
+	font-family: arial, sans-serif;
+}
+
+h1{
+	font-size: 2.8rem;
+	overflow: auto;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#bg-img{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	position: relative;
+}
+
+.img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: left top;
+	z-index: -5;
+}
+
+#bg-img .overlay { 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #26292E;
+	opacity: 0.3;
+	/*filter: alpha(opacity=50);*/
+	z-index: -1;
+}
+
+.col-1of2 a{
+	margin:0;
+}
+
+.title{
+	width: 50%;
+	height: 33.33%;
+	float: left;
+	display: block;
+	margin-right: 0;
+	background-color: #fff;
+}
+
+.title h1{
+	padding: 3.5em 0 0 0.5em;
+	color: #000;
+}
+
+.box2{
+	width: 49.8%;
+	height: 33.33%;
+	border-right: 1px dashed #fff;
+	display: block;
+	float: left;
+	margin-left: 0;
+}
+
+.box-buttons{
+	height: 33.33%;
+}
+
+.box-buttons:hover{
+	background-color: #FFF;
+}
+
+.box-buttons h3{
+	text-align: center;
+	color: #fff;
+	padding: 7em 0;
+}
+
+.box-buttons h3:hover{
+	color: #000;
+}
+
+#service{
+	width: 50%;
+	float: left;
+	display: inline;
+	border-right: 1px dashed #fff;
+	border-bottom: 1px dashed #fff;
+}
+
+#product{
+	width: 49.7%;
+	float: left;
+	display: block;
+	border-right: 1px dashed #fff;
+	border-bottom: 1px dashed #fff;
+	border-top: 1px dashed #fff;
+}
+
+#about{
+	width: 50%;
+	float: left;
+	display: inline;
+	border-right: 1px dashed #fff;
+}
+
+#contact{
+	width: 49.7%;
+	float: left;
+	display: block;
+	border-right: 1px dashed #fff;
+}
+
+
+/*Left Section*/
+
+.article{
+	width: 100;
+	height: 100%;
+	background-color: #fff;
+}
+
+.article p{
+	margin: 0; 
+	padding: 5em 4em 1em 4em;
+}
