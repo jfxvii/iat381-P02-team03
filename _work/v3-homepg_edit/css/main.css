@@ -202,6 +202,30 @@ div.container a:visited{
 	margin-bottom: 4rem;
 }
 
+/**/
+
+#comments {
+	position: absolute;
+	right: 1rem;
+	top: 20rem;
+	bottom:1rem;
+
+	padding: 1rem;
+	background-color: #2F3238;
+}
+
+nav a {
+	position: relative;
+	top: 1rem;
+}
+
+figure {
+	float: left;
+}
+
+.clear-floats {
+	clear: both;
+}
 
 
 /*I&S options*/
