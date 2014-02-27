@@ -6,16 +6,26 @@
 
 .col-1of2{
 	margin: 0;
-	width: 70%;
+	width: 60%;
 	height: 100%;
 	float: left;
 	/*border: 1px dashed black;*/
 }
 
 .col-2of2{
-	width:30%;
+	width:40%;
 	height:100%;
 	float: left;
+}
+
+.col-3of4{
+	width:65%;
+	height:100%;
+	float: left;
+}
+
+.col-1of4{
+	width:35%;
 }
 
 img{

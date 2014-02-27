@@ -25,7 +25,7 @@
 			</a>
 			<div class="box2">
 			</div>
-			<a href="ServicesProducts.html">
+			<a href="#services">
 				<div class="box-buttons" id="service">
 					<h3>Services</h3>
 				</div>
@@ -35,7 +35,7 @@
 					<h3>Products</h3>
 				</div>
 			</a>
-			<a href="About.html">
+			<a href="#about">
 				<div class="box-buttons" id="about">
 					<h3>About</h3>
 				</div>
@@ -55,7 +55,8 @@
 
 			<!-- 			<img src="_include/img/photographer2.jpg" class="img-intro"> -->
 						<div class="photo">
-							<p>Jim Fran Investigations is an experienced licensed private investigations firm that provides a wide range of services and products dealing with investigation and security. Based in Vancouver, British Columbia, and servicing the entire province, Jim Fran Investigations mainly specializes surveillance, offering professional and discreet investigations of people to security and surveillance systems.
+							<h3>Services and Products</h3>
+							<p>Our Products range from general awareness overt cameras that can be used in stores or properties, to various covert cameras that are designed to be undetectable.
 							</p>
 						</div>
 						</div>

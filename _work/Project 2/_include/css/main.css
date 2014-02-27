@@ -71,7 +71,7 @@ p{
 
 .title h1{
 	padding: 12.5rem 0 0 1rem;
-	padding: 0.5em 0 0 0.5em;
+	padding: 0.5em 0.5em 0 0.5em;
 	color: #000;
 }
 
@@ -94,10 +94,14 @@ p{
 	background-color: #5A86D7;
 }
 
+.higlighted{
+	color: #828168;
+}
+
 .box-buttons h3{
 	text-align: center;
 	color: #fff;
-	padding: 7rem 0;
+	padding: 5rem 0;
 }
 
 .box-buttons h3:hover{
@@ -147,11 +151,11 @@ p{
 
 .introduction{
 	width: 100%;
-	height: 50%;
+	height: 100%;
 	background-color: #555;
 	display: block;
 	float:left;
-	overflow: hidden;
+	overflow: auto;
 }
 
 /*.introduction div{
@@ -173,15 +177,17 @@ p{
 	display: block;
 	width:100%;
 	height: 50%;
+	color: #fff;
 	/*background-color: #fff;*/
 	float: right;
+	overflow:auto;
 /*	position: absolute;*/
 
 }
 
 .introduction p{
 	margin: 0; 
-	padding: 5rem 4rem 1rem 4rem;
+	padding: 2rem 4rem 1rem 4rem;
 }
 
 .featured{
