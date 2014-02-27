@@ -71,6 +71,7 @@ p{
 
 .title h1{
 	padding: 12.5rem 0 0 1rem;
+	padding: 0.5em 0 0 0.5em;
 	color: #000;
 }
 
@@ -88,7 +89,9 @@ p{
 }
 
 .box-buttons:hover{
-	background-color: #FFF;
+	background-image: url('background.jpg');
+	opacity: 0.6;
+	background-color: #5A86D7;
 }
 
 .box-buttons h3{
