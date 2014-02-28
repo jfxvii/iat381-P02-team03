@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="_include/css/reset.css">
+	<link href="_include/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="_include/css/grid.css">
+	<link rel="stylesheet" href="_include/css/responsive.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+	<title>A little Hard Boiled Detective Agency </title>
+
+</head>
+
+<body>
+	<div id="bg-img">
+		<div class="overlay"></div>
+		<div class="col-1of2">
+			<a href="index.html">
+				<div class="title">
+					<h1>Jim Fran Investigations</h1>
+				</div>
+			</a>
+			<div class="box2">
+			</div>
+			<a href="#services">
+				<div class="box-buttons" id="service">
+					<h3>Services</h3>
+				</div>
+			</a>
+			<a href="#products">
+				<div class="box-buttons" id="product">
+					<h3>Products</h3>
+				</div>
+			</a>
+			<a href="#about">
+				<div class="box-buttons" id="about">
+					<h3>About</h3>
+				</div>
+			</a>
+			<a href="#contact">
+				<div class="box-buttons" id="contact">
+					<h3>Contact</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-2of2">
+			<div class="home-container">
+				<section class="introduction">
+					<a href="#about">
+					<div>
+						<div class="intro-div">
+
+			<!-- 			<img src="_include/img/photographer2.jpg" class="img-intro"> -->
+						<div class="photo">
+							<h3>Services and Products</h3>
+							<p>Our Products range from general awareness overt cameras that can be used in stores or properties, to various covert cameras that are designed to be undetectable.
+							</p>
+						</div>
+						</div>
+					</div>
+					</a>
+				</section>
+
+				<div class="featured">
+					<article class="first-article">
+
+					</article>
+					<article class="second-article">
+
+					</article>
+					<article class="third-article">
+
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
