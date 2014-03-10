@@ -1,20 +1,27 @@
-@media (min-width: 100.0625rem) and (max-width: 120rem){
+@media (min-width: 100.0625rem) and (max-width: 122rem){
 	html{
 		font-size: 100%;
 	}
+
+	#logo{
+		margin: 6rem 0 0 1.5rem;
+		display: block;
+	}
 }
 
-@media (min-height: 48.0625rem) and (max-height: 56.25rem){
+/*@media (min-height: 48.0625rem) and (max-height: 56.25rem){
 	.title h1{
 		padding-top: 10rem;
 	}
+
 }
 
 @media (min-height: 30.625rem) and (max-height: 48rem){
 	.title h1{
 		padding-top: 8rem;
 	}
-}
+
+}*/
 
 @media  (min-width: 48.0625rem) and (max-width:100rem){
 
@@ -22,9 +29,14 @@
 		font-size: 80%;
 	}
 
-	.title h1{
+/*	.title h1{
 		padding: 15.5rem 0 0 1rem;
 		font-size: 2.5rem;
+	}*/
+
+	#logo{
+		margin: 7.5rem 0 0 1.5rem;
+		display: block;
 	}
 
 	#service{
@@ -48,11 +60,17 @@
 	html{
 		font-size: 60%;
 	}
-
+/*
 	.title h1{
 		padding: 24rem 0 0 1rem;
 		font-size: 1rem;
+	}*/
+
+	#logo{
+		display: block;
+		margin: 15rem 0 0 1.5rem;
 	}
+
 
 	#service{
 		width:49.95%;
@@ -82,12 +100,18 @@
 
 	.title{
 		width: 100%;
-		height: 5%;
+		height: 10%;
 	}
 
-	.title h1{
-		font-size: 2rem;
-		padding: 0;
+	#logo{
+		display: none;
+	}
+
+	#mobile-title h1{
+		display: block;
+		font-size: 1.5rem;
+		/*padding: 1rem 0 0 1rem;*/
+		text-align: center;
 	}
 
 	.box2{
