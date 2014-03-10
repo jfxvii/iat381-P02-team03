@@ -60,7 +60,7 @@ p{
 	opacity: 0.3;
 	/*filter: alpha(opacity=50);*/
 	z-index: -10;
-	clear: float;
+	clear: both;
 }
 
 .col-1of2 a{
@@ -78,7 +78,7 @@ p{
 }
 
 .title h1{
-	padding: 12.5rem 0 0 1rem;
+	/*padding: 12.5rem 0 0 1rem; jeremy's version*/
 	padding: 0.5em 0.5em 0 0.5em;
 	color: #000;
 }
@@ -89,6 +89,7 @@ p{
 	display: block;
 	float: left;
 	margin-left: 0;
+	background-color: #fff;
 }
 
 .box-buttons{
@@ -97,19 +98,17 @@ p{
 }
 
 .box-buttons:hover{
+	/*
 	background-image: url('background.jpg');
 	opacity: 0.6;
-	background-color: #5A86D7;
-}
-
-.higlighted{
-	color: #828168;
+	background-color: #5A86D7; */
+	background-color: #FFF;
 }
 
 .box-buttons h3{
 	text-align: center;
 	color: #fff;
-	padding: 5rem 0;
+	padding: 5rem 0; /*jeremy had padding: 7rem 0;*/
 }
 
 .box-buttons h3:hover{
@@ -145,6 +144,8 @@ p{
 	display: block;
 }
 
+/* action buttons */
+
 nav a {
 	font-family: 'Source Sans Pro', sans-serif;
 	display: inline-block;
@@ -179,15 +180,20 @@ nav a:hover, nav a:active, nav a:focus {
 	clear: float;
 }
 
+
 /***** content ******/
 
 .introduction{
 	width: 100%;
 	height: 100%;
 	background-color: #555;
+	background: url(../img/photographer-flipped.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
 	display: block;
 	float:left;
-	overflow: auto;
+	overflow: hidden;
+	position: relative;
 }
 
 /*.introduction div{
@@ -195,16 +201,26 @@ nav a:hover, nav a:active, nav a:focus {
 }*/
 
 .intro-div{
-/*	position: relative;
-*/
 	float: left;
 	display: inline;
-	overflow:auto;
+	overflow:auto; /* jeremy's doesnt have*/
 }
 
 .img-intro{
 	display: block;
-	overflow:auto;
+	overflow:auto; /* jeremy's doesnt have*/
+}
+
+.overlay-text{
+	display: block;
+	width:40%;
+	height: 100%;
+	background-color: #fff;
+	float: right;
+	margin: 5rem 0 0 9.5rem; 
+	opacity: 0.4;
+	position: absolute;
+
 }
 
 .photo{
@@ -264,6 +280,24 @@ figure a:hover{
 }
 
 /*---- end of figure styling   ---*/
+.introduction h3{
+	float: left;
+	font-size: 2.5rem;
+	padding: 2rem 1rem 0 4rem;
+	opacity: 1;
+	color: #000;
+}
+
+/*jeremy's introduction p
+
+.introduction p{
+	float: right;
+	padding: 2rem 4rem 1rem 4rem;
+	opacity: 1;
+	color: #000;
+}
+
+*/
 
 .introduction p{
 	margin: 0 5rem 0 0; 
@@ -284,11 +318,21 @@ figure a:hover{
 	display: block;
 }
 
+.first-article:hover{
+	background-color: #fff;
+	color:black; /*added by colette */
+}
+
 .second-article{
 	background-color: #777;
 	width:100%;
 	height:33.33%;
 	display: block;
+}
+
+.second-article:hover{
+	background-color: #fff;
+	color:black; /*added by colette */
 }
 
 .third-article{
@@ -297,6 +341,107 @@ figure a:hover{
 	height:33.33%;
 	display: block;
 }
+
+.third-article:hover{
+	background-color: #fff;
+	color:black; /*added by colette */
+}
+
+.thumbnail-div{
+	width: 40%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+
+.thumbnail-txt{
+	width:50%;
+	height: 100%;
+	display: block;
+	float: left;
+	color: #fff;
+}
+
+	.thumbnail-txt h3{
+		font-size: 1.5rem;
+	}
+
+
+	.thumbnail-txt p{
+		font-size: 1rem;
+		padding-top: 1.5rem;
+		padding-bottom: -1rem;
+	}
+
+.thumbnail-txt:hover{
+	color: #111;
+}
+
+#first{
+	padding: 1rem 1rem 0 2rem;
+}
+
+#second{
+	padding: 0 1rem 0 2rem;
+}
+
+#third{
+	padding: 0 1rem -1rem 3rem;
+	margin-left: 2rem;
+	margin-bottom: 0;
+}
+
+#art-2-img{
+	margin-top: -1rem;
+}
+
+#art-3-img{
+	margin-top: -1rem;
+}
+
+
+.special{
+	width:50%;
+	height:50%;
+	display: block;
+	float: left;
+	position: relative;
+	background: url(../img/U770GV-smaller.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-bottom: 0;
+	overflow: hidden;
+	padding: 0 0 0 0;
+
+}
+#special-offer{
+	width: 100%;
+	height: 15%;
+	background-color: #000;
+	position: absolute;
+	margin: 0 0 0 0;
+	padding: 2rem 0 0 2rem;
+	opacity: 0.4;
+}
+
+#special-offer h3{
+	font-size: 3rem;
+	color: #fff;
+}
+
+
+/*.overlay-text{
+	display: block;
+	width: 50%;
+	height: 100%;
+	background-color: #fff;
+	float: right;
+	margin: 5rem 0 0 5rem; 
+	opacity: 0.4;
+	position: absolute;
+
+}*/
+
 
 /*-----  FORMs   --------*/
 form {
