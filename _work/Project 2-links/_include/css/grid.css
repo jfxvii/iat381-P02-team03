@@ -33,35 +33,4 @@ img{
 	height:auto;
 }
 
-figure img{
-	margin: 1rem 0 0 2rem;
-}
 
-figure p{
-	margin:0 0 0 2rem;
-}
-
-figcaption{
-	margin:1rem 0 0 1rem;
-}
-
-figure a{
-	font-family:'Source Sans Pro', sans-serif;
-	display:inline-block;
-	background-color: gray;
-	text-decoration: none;
-	color: white;
-	padding: 0.5em 1.25em;
-	float:left;
-	position:relative;
-
-	left:5%;
-	margin-bottom: 2%;
-	box-shadow: .25rem .25rem .125rem #CCC;
-}
-
-figure a:hover{
-	border-color:blue;
-	background-color:#C6D6F5;
-	color:black;
-}
