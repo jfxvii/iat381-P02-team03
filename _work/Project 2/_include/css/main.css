@@ -554,6 +554,7 @@ figure a:hover{
 	display: block;
 	margin-top: 1rem;
 	clear: both;
+	font-size: 2rem;
 }
 
 .rec-items{
@@ -608,3 +609,94 @@ figure a:hover{
 	font-size: 1.3rem;
 }
 
+/****** CONTACT ***** */
+
+.contact-blurb{
+	margin: 2rem 0 2rem 4rem;
+	width: 82%;
+	font-size:1.3rem;
+	line-height:125%;
+}
+
+/*-----  FORMs   --------*/
+form {
+	font-size: 0.7rem;
+	text-transform: uppercase;
+
+}
+
+form label {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	display: block; 
+	margin-top: 1rem;
+	font-size: 1rem;
+
+	/*width: 4em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block;*/
+}
+
+#form-title{
+	font-size: 2rem;
+	font-style: italic;;
+}
+
+input[type=submit]{
+	margin-top:1rem ;
+	padding-right: 1rem;
+	position:relative;
+	font-size: 1rem;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:600;
+	background-color:#0C1727;
+	float:right;
+}
+
+input[type=submit]:hover{
+	background-color:#C6D6F5;
+	color:#000;
+}
+
+form input, form textarea {
+	display: block;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1rem;
+	padding: 0 5rem 1rem 0.25rem;
+	border: 0.1rem solid #999; 
+}
+
+form input:hover, form textarea:hover {
+	border-color: navy;
+}
+
+form textarea {
+	width: 13rem;
+	height: 6rem;
+}
+
+#comments {
+	position: relative;
+	right: 1rem;
+	top: 10%;
+	float:left;
+	padding: 5%;
+	margin-left:10% ;
+	background-color: gray;
+	clear:both;
+}
+
+nav a {
+	position: relative;
+	top: 1rem;
+}
+
+figure {
+	float: left;
+}
+
+.clear-floats {
+	clear: both;
+}
