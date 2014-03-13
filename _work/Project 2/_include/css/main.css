@@ -14,7 +14,7 @@ html, body{
 h1,
 h2,
 h3{
-	font-family: arial, sans-serif;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 h1{
@@ -24,13 +24,13 @@ h1{
 
 p{
 	font-size: 1rem;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 #bg-img{
 	width: 100%;
 	height: 100%;
-	margin:0;
+	margin: 0;
 	position: absolute;
 	background: url(../img/background.jpg);
 	background-repeat: no-repeat;
@@ -60,7 +60,7 @@ p{
 }
 
 .title{
-	width: 50%;
+	width: 100%;
 	height: 33.33%;
 	float: left;
 	display: block;
@@ -69,19 +69,24 @@ p{
 	overflow: hidden;
 }
 
-.title h1{
-	padding: 12.5rem 0 0 1rem;
+#mobile-title h1{
+	display: none;
 	color: #000;
 }
 
-.box2{
+
+/*#logo{
+	margin: 5.5rem 0 0 1.5rem;
+}*/
+
+/*.box2{
 	width: 49.8%;
 	height: 33.33%;
 	display: block;
 	float: left;
 	margin-left: 0;
 	background-color: #fff;
-}
+}*/
 
 .box-buttons{
 	height: 33.33%;
@@ -93,9 +98,12 @@ p{
 }
 
 .box-buttons h3{
+	height: 100%;
 	text-align: center;
 	color: #fff;
-	padding: 7rem 0;
+	padding: 35% 0;
+	/*margin: 25% 0;*/
+	font-size: 1.25rem;
 }
 
 .box-buttons h3:hover{
@@ -115,7 +123,7 @@ p{
 	float: left;
 	display: block;
 	border-bottom: 0.0625rem dashed #fff;
-	border-top: 0.0625rem dashed #fff;
+	/*border-top: 0.0625rem dashed #fff;*/
 }
 
 #about{
@@ -147,17 +155,33 @@ p{
 /***** content ******/
 
 .introduction{
+/*	margin-bottom: 1rem;*/
 	width: 100%;
 	height: 50%;
 	background-color: #555;
-	background: url(../img/photographer-flipped.jpg);
+	background: url(../img/photographer-flipped2.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	display: block;
 	float: left;
 	overflow: hidden;
 	position: relative;
+
 }
+
+.introduction-paragraph{
+	width: 100%;
+	height: 20%;
+}
+
+.background{
+	background: url(../img/bg.gif) 0 0;
+	/*overflow: scroll;*/
+	overflow: auto;
+	height: 100%;
+}
+
+
 
 
 .intro-div{
@@ -171,33 +195,32 @@ p{
 
 .overlay-text{
 	display: block;
-	width:40%;
-	height: 100%;
+	width: 36%;
+	height:70%;
 	background-color: #fff;
 	float: right;
-	margin: 5rem 0 0 9.5rem; 
+	margin: 10rem 0 0 10rem; 
 	opacity: 0.4;
 	position: absolute;
-
 }
 
 .introduction h3{
 	float: left;
 	font-size: 2.5rem;
-	padding: 2rem 1rem 0 4rem;
+	padding: 2.5rem 1rem 0 4rem;
 	opacity: 1;
 	color: #000;
 }
 
 .introduction p{
 	float: right;
-	padding: 2rem 4rem 1rem 4rem;
+	padding: 1rem 4rem 1rem 4rem;
 	opacity: 1;
 	color: #000;
 }
 
 .featured{
-	width: 50%;
+	width: 60%;
 	height: 50%; 
 	display: block;
 	float: left;
@@ -290,7 +313,7 @@ p{
 
 
 .special{
-	width:50%;
+	width:40%;
 	height:50%;
 	display: block;
 	float: left;
@@ -303,6 +326,7 @@ p{
 	padding: 0 0 0 0;
 
 }
+
 #special-offer{
 	width: 100%;
 	height: 15%;
@@ -314,7 +338,7 @@ p{
 }
 
 #special-offer h3{
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #fff;
 }
 
@@ -331,3 +355,134 @@ p{
 	position: absolute;
 
 }*/
+
+
+/**************************
+	Products
+***************************/
+
+.photo{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	/*background-color: #fff;*/
+	float: left;
+/*	position: absolute;*/
+}
+
+.photo h1{
+	font-size: 3rem;
+	margin: 0 0 0 4rem;
+	padding: 2rem 0 0 0;
+}
+
+#solo-description{
+	margin: 2rem 0 2rem 4rem;
+	width: 82%;
+}
+
+
+figcaption{
+	display: block;
+	margin: 1rem 0 1rem 2rem;
+	font-size: 1.5rem;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+
+figure{
+	background-color: #FFF;
+	color: black;
+	margin: 1rem 0 1rem 4rem;
+	float: left;
+	width: 35%;
+	height: 45%;
+	padding-right: 3rem;
+}
+
+figure img{
+	margin: 1rem 0 0 2rem;
+}
+
+figure p{
+	font-size: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	padding: 0 0 0 0;
+}
+
+figure a{
+	font-family:'Source Sans Pro', sans-serif;
+	display:inline-block;
+	background-color: gray;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em 1rem;
+	float:left;
+	position:relative;
+/*	left:5%;*/
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-bottom: 2%;
+	box-shadow: .25rem .25rem .125rem #CCC;
+}
+
+figure a:hover{
+	border-color:blue;
+	background-color:#C6D6F5;
+	color:black;
+}
+
+.more-infobtn a{
+	background-color: #0C1727;
+	margin-right: .rem;
+}
+
+#prod-1{
+	display: inline;
+
+}
+
+#prod-2{
+	margin-left: 2rem;
+	display: block;
+}
+
+#prod-2 img{
+	margin-bottom: 1rem; 
+}
+
+#prod-2 p{
+	margin-bottom: 1.7rem;
+}
+
+#prod-3{
+
+	display: inline;
+}
+
+#prod-3 img{
+	margin-bottom: .75rem;
+}
+
+#prod-4{
+	display: block;
+	margin-left: 2rem; 
+
+}
+
+#prod-4 img{
+	margin-bottom: .3rem;
+}
+
+#prod-4 p{
+	margin-bottom: 1.3rem; 
+}
+
+#prod-5{
+	display: inline;
+}
+
+#prod-5 p{
+	margin-bottom: 1.25rem; 
+}
