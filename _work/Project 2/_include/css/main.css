@@ -490,11 +490,10 @@ figure a:hover{
 #prod-4{
 	display: block;
 	margin-left: 2rem; 
-
 }
 
 #prod-4 img{
-	margin-bottom: .3rem;
+	margin-bottom: .2rem;
 }
 
 #prod-4 p{
@@ -503,6 +502,7 @@ figure a:hover{
 
 #prod-5{
 	display: inline;
+	padding-bottom: 5rem;
 }
 
 #prod-5 p{
