@@ -201,7 +201,8 @@ p{
 	height:70%;
 	background-color: #fff;
 	float: right;
-	margin: 10rem 0 0 10rem; 
+	padding:0 3rem 5rem 0 ;
+	margin: 6rem 0 0 10rem; 
 	opacity: 0.4;
 	position: absolute;
 }
@@ -216,9 +217,11 @@ p{
 
 .introduction p{
 	float: right;
-	padding: 1rem 4rem 1rem 4rem;
+	padding: 1rem 1rem 1rem 4rem;
 	opacity: 1;
 	color: #000;
+	font-size: 1.2rem;
+	line-height: 120%;
 }
 
 .featured{
