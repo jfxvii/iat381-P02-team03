@@ -4,7 +4,7 @@
 	}
 
 	#logo{
-		margin: 4rem 0 0 6.4rem;
+		margin: 6rem 0 0 6.4rem;
 		display: block;
 	}
 
@@ -19,34 +19,76 @@
 		line-height: 1.5rem;
 	}
 
-
 	#megapix{
-		height: 65%;
+		height: 40rem;
 	}
 
 	.rec-items{
-		height: 40%;
+		height: 25rem;
 	}
 }
 
-/*@media (min-height: 48.0625rem) and (max-height: 56.25rem){
-	.title h1{
-		padding-top: 10rem;
+/*1281-1600*/
+
+@media (min-width: 80.0625rem) and (max-width: 100rem){
+	#logo{
+		margin: 7.5rem 0 0 2rem;
+		display: block;
+		width: 75%;
 	}
 
-}
-
-@media (min-height: 30.625rem) and (max-height: 48rem){
-	.title h1{
-		padding-top: 8rem;
+	#service{
+		width:49.95%;
+		border-right: 1px dashed #fff;
+		border-bottom: 1px dashed #fff;
 	}
 
-}*/
+	#product{
+		border-bottom: 1px dashed #fff;
+	}
 
-@media  (min-width: 48.0625rem) and (max-width:100rem){
+	#about{
+	border-right: 1px dashed #fff;
+	}
+
+	.rec-items{
+	float: left;
+	height: 20rem;
+	width: 12.5rem;
+	}
+
+/*	#rec-1{
+		width: 22.5%;
+	}
+
+	#rec-2{
+		width: 22.5%;
+	}
+
+	#rec-2{
+		width: 22.5%;
+	}*/
+} 
+
+
+/* 769- 1280*/
+@media  (min-width: 48.0625rem) and (max-width:80rem){
+
 
 	html{
 		font-size: 80%;
+	}
+
+	.col-1of2{
+	margin: 0;
+	width: 30%;
+	height: 100%;
+	float: left;
+	/*border: 1px dashed black;*/
+	}
+
+	.col-2of2{
+		width: 70%;
 	}
 
 /*	.title h1{
@@ -55,8 +97,9 @@
 	}*/
 
 	#logo{
-		margin: 2.7rem 0 0 1.5rem;
+		margin: 7.5rem 0 0 2rem;
 		display: block;
+		width: 75%;
 	}
 
 	#service{
@@ -67,87 +110,38 @@
 
 	#product{
 		border-bottom: 1px dashed #fff;
-		border-top: 1px dashed #fff;
 	}
 
 	#about{
-	border-right: 1px dashed #fff;
+		border-right: 1px dashed #fff;
 	}
 
-	#rec-1{
-		width: 22.5%;
+	.rec-items{
+		float: left;
+		height: 20rem;
+		width: 10rem;
 	}
 
-	#bgchecks{
-		width: 65%;
-		height:auto;
-	}
-
-	#rec-2{
-		width: 22.5%;
+/*	#rec-1{
+		width: 20%;
 	}
 
 	#rec-2{
-		width: 22.5%;
+		width: 20%;
 	}
 
-}
-
-@media only screen and (min-width: 30.0625rem) and (max-width: 48.0624rem){
-	html{
-		font-size: 60%;
-	}
-/*
-	.title h1{
-		padding: 24rem 0 0 1rem;
-		font-size: 1rem;
+	#rec-2{
+		width: 20%;
 	}*/
-
-	#logo{
-		display: block;
-		margin: 6.6rem 0 0 1.5rem;
-	}
-
-	#bgchecks{
-		width: 65%;
-		height:auto;
-	}
-
-	#service{
-		width:49.95%;
-		border-right: 1px dashed #fff;
-		border-bottom: 1px dashed #fff;
-	}
-
-	#product{
-		border-bottom: 1px dashed #fff;
-		border-top: 1px dashed #fff;
-	}
-	#about{
-		border-right: 1px dashed #fff;
-	}
-
-	#rec-1{
-		width: 20%;
-	}
-
-	#rec-2{
-		width: 20%;
-	}
-
-	#rec-2{
-		width: 20%;
-	}
 
 }
 
 /* 481 - 768*/
 
-@media only screen (min-width: 30.0625rem) and (max-width: 30rem){
+@media only screen and (min-width: 30.0625rem) and (max-width: 48.0624rem){
 
 	.col-1of2{
 		margin: 0;
-		padding: 0;
 		width: 100%;
 		height: 15rem;
 		float: left;
@@ -158,29 +152,39 @@
 		overflow: auto;
 	}
 
-
 	html{
 		font-size: 60%;
 	}
+/*
+	.title h1{
+		padding: 24rem 0 0 1rem;
+		font-size: 1rem;
+	}*/
 
 	.title{
-		width: 100%;
-		height: 10%;
+		height: 100%;
 	}
-
 
 	#logo{
-		display: none;
+		display: inline-block;
+		margin: 3rem 0 0 5rem;
+		width: 30%;
 	}
 
-	#mobile-title h1{
-		display: block;
-		font-size: 1.5rem;
-		/*padding: 1rem 0 0 1rem;*/
-		text-align: center;
+	#bgchecks{
+		width: 65%;
+		height:auto;
 	}
 
-		#service{
+
+	#menu-container{
+		display:block;
+		float: right;
+		margin: 6rem 4rem 0 0;
+	}
+
+
+	#service{
 		display: none;
 		width:49.95%;
 		border-right: 1px dashed #fff;
@@ -205,7 +209,7 @@
 	}
 
 	#megapix{
-		height: 65%;
+		height: 55rem;
 	}
 
 	figcaption{
@@ -222,15 +226,22 @@
 	}
 
 	.rec-items{
-		height: 55%;
+		width: 10rem;
+		height: 35rem;
+		margin-bottom: 1rem;
 	}
 
 }
 
 @media only screen and (max-width: 30rem){
 
-	html,body{
+/*	html,body{
 		overflow: auto;
+
+	}*/
+
+	.background{
+		-webkit-overflow-scrolling: touch;
 	}
 	.col-1of2{
 		margin: 0;
@@ -259,6 +270,37 @@
 		text-align: center;
 	}
 
+	.nav-buttons{
+		margin-right: .01rem;
+	}
+
+	.nav-buttons a{
+		padding: .5rem 1rem;
+	}
+
+	#menu-container{
+		width: 100%;
+		display:block;
+		float: left;
+		margin: 1rem 0 0 10%;
+	}
+
+/*	#menu-icon{
+		color: #000;
+		display: block;
+		width: 2rem;
+		height: 2rem;
+		border: 1px dashed #000;
+	}
+
+	#nav{
+		clear: both;
+		position: absolute;
+		top: 3rem;
+		z-index: 10000;
+		padding: .5rem;
+		display: none;
+	}*/
 
 	.box2{
 		display: none;
@@ -272,7 +314,8 @@
 		display: none;
 	}
 	#about{
-		display: none;	}
+		display: none;	
+	}
 
 	#contact{
 		display: none;
@@ -285,14 +328,26 @@
 	#descrip-page figure{
 		margin-left: 1rem;
 	}
+
+	#megapix{
+		height: 45rem;
+	}
+
+	.rec-items{
+		width: 15rem;
+	}
+
+	#rec-3{
+		height: 24rem;
+	}
 }
 
-}
 
 @media (min-height: 48.0625rem) and (max-height: 56.25rem){
 	.title h1{
 		padding-top: 10rem;
 	}
+
 }
 
 @media (min-height: 30.625rem) and (max-height: 48rem){
@@ -305,10 +360,10 @@
 	}
 
 	#list-of-features{
-	margin: 1rem 0 .5rem 5rem;
+		margin: 1rem 0 .5rem 5rem;
 	}
 
-	#megapix{
+/*	#megapix{
 		height: 85%;
 	}
 
@@ -318,6 +373,6 @@
 
 	.rec-items{
 		height: 60%;
-	}
+	}*/
 
 }
