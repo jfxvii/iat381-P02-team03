@@ -510,6 +510,59 @@ figure a:hover{
 	margin-bottom: 1.25rem; 
 }
 
+/**************************
+	Description
+***************************/
+
+
+#descrip-page{
+	margin-top:1rem ;
+	margin-left: 4rem;
+}
+
+#descrip-page figure{
+	margin-left: 4rem;
+}
+
+#megapix{
+	background-color: #FFF;
+	color: black;
+	margin: 2rem 2rem 1rem 0;
+	float: left;
+	width: 80%;
+	height: 70%;
+	padding-right: 3rem;
+	display: block;
+	clear: both;
+}
+
+#megapix p{
+	font-size: 1.3rem;
+}
+
+#megapix a{
+	font-size: 1.5rem;
+}
+
+#list-of-features{
+	list-style: disc;
+	margin: 1rem 0 1rem 5rem;
+}
+
+#recommendations{
+	float: left;
+	display: block;
+	margin-top: 1rem;
+	clear: both;
+}
+
+.rec-items{
+	float: left;
+	height: 30%;
+	width: 23.5%;
+}
+
+
 .service-items{
 	float: left;
 	width: 45%;
@@ -528,3 +581,30 @@ figure a:hover{
 #bgchecks figcaption{
 	font-size: 1.3rem;
 }
+
+#rec-1{
+	margin-right: .27%;
+	clear: left;
+}
+
+#rec-1 figcaption{
+	font-size: 1.3rem;
+}
+
+#rec-2{
+	margin-right: .27%;
+	margin-left: .27%;
+}
+
+#rec-2 figcaption{
+	font-size: 1.3rem;
+}
+
+#rec-3{
+	margin-left: .27%;
+}
+
+#rec-3 figcaption{
+	font-size: 1.3rem;
+}
+

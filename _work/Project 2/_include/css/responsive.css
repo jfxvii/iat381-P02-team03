@@ -18,6 +18,15 @@
 		font-size: 1.2rem;
 		line-height: 1.5rem;
 	}
+
+
+	#megapix{
+		height: 65%;
+	}
+
+	.rec-items{
+		height: 40%;
+	}
 }
 
 /*@media (min-height: 48.0625rem) and (max-height: 56.25rem){
@@ -65,6 +74,23 @@
 	border-right: 1px dashed #fff;
 	}
 
+	#rec-1{
+		width: 22.5%;
+	}
+
+	#bgchecks{
+		width: 65%;
+		height:auto;
+	}
+
+	#rec-2{
+		width: 22.5%;
+	}
+
+	#rec-2{
+		width: 22.5%;
+	}
+
 }
 
 @media only screen and (min-width: 30.0625rem) and (max-width: 48.0624rem){
@@ -101,21 +127,125 @@
 		border-right: 1px dashed #fff;
 	}
 
+	#rec-1{
+		width: 20%;
+	}
+
+	#rec-2{
+		width: 20%;
+	}
+
+	#rec-2{
+		width: 20%;
+	}
+
 }
 
-@media only screen and (max-width: 30rem){
+/* 481 - 768*/
+
+@media only screen (min-width: 30.0625rem) and (max-width: 30rem){
 
 	.col-1of2{
 		margin: 0;
 		padding: 0;
 		width: 100%;
-		height: 100%;
+		height: 15rem;
 		float: left;
+	}
+
+	.col-2of2{
+		width: 100%;
+		overflow: auto;
+	}
+
+
+	html{
+		font-size: 60%;
 	}
 
 	.title{
 		width: 100%;
 		height: 10%;
+	}
+
+
+	#logo{
+		display: none;
+	}
+
+	#mobile-title h1{
+		display: block;
+		font-size: 1.5rem;
+		/*padding: 1rem 0 0 1rem;*/
+		text-align: center;
+	}
+
+		#service{
+		display: none;
+		width:49.95%;
+		border-right: 1px dashed #fff;
+		border-bottom: 1px dashed #fff;
+	}
+
+	#product{
+		display: none;
+		border-bottom: 1px dashed #fff;
+	}
+	#about{
+		display: none;
+		border-right: 1px dashed #fff;
+	}
+
+	#contact{
+		display: none;
+	}
+
+	figure{
+		height: 50%;
+	}
+
+	#megapix{
+		height: 65%;
+	}
+
+	figcaption{
+		font-size: 2.5rem;
+		margin-bottom: 3rem;
+	}
+
+	#megapix p{
+		font-size: 2rem;
+	}
+
+	#megapix li{
+		font-size: 1.5rem;
+	}
+
+	.rec-items{
+		height: 55%;
+	}
+
+}
+
+@media only screen and (max-width: 30rem){
+
+	html,body{
+		overflow: auto;
+	}
+	.col-1of2{
+		margin: 0;
+		width: 100%;
+		height: 10%;
+		float: left;
+	}
+
+	.col-2of2{
+		width: 100%;
+		overflow: auto;
+	}
+
+	.title{
+		height: 100%;
 	}
 
 	#logo{
@@ -129,8 +259,65 @@
 		text-align: center;
 	}
 
+
 	.box2{
 		display: none;
+	}
+
+	#service{
+		display: none;
+	}
+
+	#product{
+		display: none;
+	}
+	#about{
+		display: none;	}
+
+	#contact{
+		display: none;
+	}
+
+	#descrip-page{
+		margin-left: 1rem;
+	}
+
+	#descrip-page figure{
+		margin-left: 1rem;
+	}
+}
+
+}
+
+@media (min-height: 48.0625rem) and (max-height: 56.25rem){
+	.title h1{
+		padding-top: 10rem;
+	}
+}
+
+@media (min-height: 30.625rem) and (max-height: 48rem){
+	.title h1{
+		padding-top: 8rem;
+	}
+
+	#logo{
+		margin-top: 4rem;
+	}
+
+	#list-of-features{
+	margin: 1rem 0 .5rem 5rem;
+	}
+
+	#megapix{
+		height: 85%;
+	}
+
+	#megapix a{
+		font-size: 2rem;
+	}
+
+	.rec-items{
+		height: 60%;
 	}
 
 }
