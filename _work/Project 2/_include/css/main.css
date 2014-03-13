@@ -509,3 +509,22 @@ figure a:hover{
 #prod-5 p{
 	margin-bottom: 1.25rem; 
 }
+
+.service-items{
+	float: left;
+	width: 45%;
+	clear:both;
+	line-height: 115%;
+		height:auto;
+}
+
+#bgchecks{
+	margin-right: .27%;
+	clear: both;
+	padding-bottom: 2rem;
+	height:auto;
+}
+
+#bgchecks figcaption{
+	font-size: 1.3rem;
+}
