@@ -401,6 +401,8 @@ p{
 #solo-description{
 	margin: 2rem 0 2rem 4rem;
 	width: 82%;
+	font-size: 1.2rem;
+	line-height: 125%;
 }
 
 
@@ -456,10 +458,7 @@ figure a:hover{
 	color:black;
 }
 
-.more-infobtn a{
-	background-color: #0C1727;
-	margin-right: 0rem; /*CHANGED from .rem */
-}
+
 
 #prod-1{
 	display: inline;
@@ -554,7 +553,7 @@ figure a:hover{
 	display: block;
 	margin-top: 1rem;
 	clear: both;
-	font-size: 2rem;
+	font-size: 2rem; /*ADDED FONT SIZE TO MAKE IT BIGGER*/
 }
 
 .rec-items{
@@ -699,4 +698,36 @@ figure {
 
 .clear-floats {
 	clear: both;
+}
+
+/* more changes */
+
+.more-infobtn a{
+	background-color: #0C1727;
+	margin-right: 0rem; /*CHANGED from .rem */
+}
+
+.checkout-btn a{
+	background-color:#0C1727 ;
+	margin-right: 0rem; /*CHANGED from .rem */
+}
+
+.actionbtn a{
+	background-color: #ACC6FA;
+	color:black;
+	float:right;
+	text-decoration:none;
+	padding:1rem 1rem 1rem 1rem;
+	margin-left: 1rem;
+	position: relative;
+	right:10%;
+	box-shadow: .25rem .25rem .125rem #CCC;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+.actionbtn a:hover{
+	background-color: gray;
+	color:#FFF;
+	box-shadow: .25rem .25rem .125rem #CCC;
+	font-family:'Source Sans Pro', sans-serif;
 }
