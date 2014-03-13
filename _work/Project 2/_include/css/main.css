@@ -52,7 +52,7 @@ p{
 	opacity: 0.3;
 	/*filter: alpha(opacity=50);*/
 	z-index: -10;
-	clear: float;
+	clear: both;
 }
 
 .col-1of2 a{
@@ -91,6 +91,8 @@ p{
 .box-buttons{
 	height: 33.33%;
 	margin-left: 0;
+	font-weight: 600;
+
 }
 
 .box-buttons:hover{
@@ -100,10 +102,10 @@ p{
 .box-buttons h3{
 	height: 100%;
 	text-align: center;
-	color: #fff;
+	color: #000; /*CHANGED from white to make it more visible*/
 	padding: 35% 0;
 	/*margin: 25% 0;*/
-	font-size: 1.25rem;
+	font-size: 1.35rem; /*also made the font size bigger*/
 }
 
 .box-buttons h3:hover{
@@ -275,13 +277,13 @@ p{
 }
 
 	.thumbnail-txt h3{
-		font-size: 1.5rem;
+		font-size: 1.43rem;
 	}
 
 
 	.thumbnail-txt p{
 		font-size: 1rem;
-		padding-top: 1.5rem;
+		padding-top: 1.1rem;
 		padding-bottom: -1rem;
 	}
 
@@ -356,6 +358,23 @@ p{
 
 }*/
 
+/**************************
+	Services
+***************************/
+.services-sub{
+	margin: 2rem 0 2rem 4rem;
+	width: 82%;
+	font-size: 1.7rem;
+}
+
+.service-description{
+	margin: 2rem 0 2rem 4rem;
+	width: 82%;
+	font-size: 1.2rem;
+	line-height:125%
+}
+
+
 
 /**************************
 	Products
@@ -380,6 +399,7 @@ p{
 	margin: 2rem 0 2rem 4rem;
 	width: 82%;
 }
+
 
 
 figcaption{
@@ -435,7 +455,7 @@ figure a:hover{
 
 .more-infobtn a{
 	background-color: #0C1727;
-	margin-right: .rem;
+	margin-right: 0rem; /*CHANGED from .rem */
 }
 
 #prod-1{
@@ -453,7 +473,7 @@ figure a:hover{
 }
 
 #prod-2 p{
-	margin-bottom: 1.7rem;
+	margin-bottom: 1.1rem; /*CHANGED from 1.7 so that the buttons stay inside box*/
 }
 
 #prod-3{
